@@ -1,0 +1,88 @@
+.nav-bar{
+    justify-content: left;
+    font-size: 15px;
+    
+}
+.nav-bar ul{
+    margin: 5px 0;
+    font-size: 8px;
+}
+.nav-bar ul li a{
+    font-size: 10px;
+    padding: 3px 10px;
+    
+}
+.nav-bar img{
+    margin-left: 85px;
+}
+
+#home{
+    height: 820px;
+    background: center;
+
+}
+.headings{
+    font-size: 1.7em;
+}
+#pic{
+    flex-direction: column;
+    align-items: center;
+}
+#intro h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tab-content{
+    font-size: 15px;
+    letter-spacing:0cm;
+}
+#services .row{
+    margin-top: 0px;
+    padding-left: 35px;
+}
+.contact_row p{
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+.contact_row .social-icons-contact{
+    margin-left: 180px;
+}
+.input{
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    border: 1px solid #c63100;
+    color: #c63100;
+    outline: none;
+}
+#msg{
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #c63100;
+    color: #c63100;
+    outline: none;
+    
+}
+#send{
+    padding: 10px;
+    width: 30%;
+    margin: 40px;
+    border: 1px solid #c63100;
+    color: #c63100;
+    outline: none;
+    border-radius: 30px;
+    transition: all .6s;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #c63100;
+}
+#result_msg{
+    color: #c63100;
+    margin-left: 20px;
+    margin-top: -50px;
+    display: block;
+ }

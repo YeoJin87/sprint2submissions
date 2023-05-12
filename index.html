@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/d1fbf6ab7b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="phone.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+</head>
+<body>
+<section id="header">
+    <div>
+        <nav class="nav-bar">
+            <img src="https://previews.dropbox.com/p/thumb/AB6o5gc6TfLZuY4Ra6P4zUr1xzE2RoO63TqAyBwv_HbGgJqpHY0emNMRgL2rXxTu6yC5OGDuaFKYA4ZhEyYcfFr0JM7sZ3xm_mrRrhRvoMR9-vE6WyZGjHQTqEDnhmdEG0Ggt2DJAfiVTzbh8EhAf_LSDXVoThsQwF1Kb2-J8fg4b0gdg8kAwS2no04QmfPLYhZGLhIuzg-up3gShPiMK-lDWQCPbZeEj7Y7Fmr9GeU5DFeucsqSGmnEuDHfeHU3LdaB2IM33fLwKLYtCtleHQUMZ8y_XOn41dZcycvWEw8XFjyxdhWCwgXw503mVeyaouO082JD96aEKldl6lXaid87crFbeLvQTUxJeMTmTExvakw26t-JrKZAUVUyoelK51A/p.png" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#certificate">Certificates</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            <i class="fa-solid fa-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+            
+        </nav>
+    </div>  
+</section>
+        <div class="header_text">
+            <div class="main">
+           
+                <h1 class="headings">
+                    <span class="name_main">I AM </span><br> EUGENE FLORES</h1>
+                <button class="button" data-bs-toggle="modal" data-bs-target="#myModalmsg">
+                    Hire me
+                </button>
+                <!-- The Modal  -->
+                <div class="modal" id="myModalmsg">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                  
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Please send your message</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                  
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form id="form_modal" action="" class="form" name="submit-to-google-sheet">
+                                <input type="text" name="Name" class="input_modal" placeholder="Enter your name" required>
+                                <input type="email" name="Email" class="input_modal" placeholder="Enter your email" required>
+                                <textarea class="txt_modal" name="Message" id="" cols="30" rows="5" placeholder="Enter your message"></textarea>
+                                <input type="submit" value="SEND" id="send_modal">
+                            </form>
+                            <span id="result_msg" style="border: none;"></span>
+                        </div>
+                  
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="background-color: #00c6c4; color: black; border-color: #00c6c4;">Close</button>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    
+    
+   <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="https://previews.dropbox.com/p/thumb/AB6m8LX38WBDGsHSMM7hhhzRxi6r0pvj4eQNyxKbabymIupxctOsBz1iUcDNz_HId2MefxR7V3oBqrS_cM2uGqeUpGpzlAbsZLS-T_MUkSsLyV5ujokHmsFkgNVlyEt4gMWsW8E6VEMmyBavYGpFH0QvmOO2H5f4_W4CkAb2BX6VldEH4v7oGD44ZY7mVXJ5ocQtokAB2G4RA4wmcDkx9qkSeKMMgrTAfqTO_iq_QlcZ_6QaILW95ARz8eihhcK7zNo9JqQC7u5rbSV2tCMEOVG7uev-FzpRN3rZsKg69cG9Jc33ijB4JHqnrVjfdRIJSh7AHsMCfWeFc_LiOw2fqfSTG1mxNzkfzuAIp0o0QiiYqT3QXm7D11XhDNqwpf4Gfbw/p.png">
+            <div id="intro">
+                <h2>EUGENE FLORES</h2>
+                <p>
+                    Eugene is currently working as a freelance Virtual Assistant. He has been in the digital industry for more than 2 years and provides exceptional service to his clients. His thirst for knowledge motivates him to develop personally and to devote himself more fully to his work. Additionally, he thinks that success in the workplace depends on mindfulness and teamwork.
+                </p><br>
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="color: #00c6c4">Experience</button>
+                      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" style="color: #00c6c4">Education</button>
+                      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false" style="color: #00c6c4">Skills</button>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div>
+                            <table class="table table-striped responsive">
+                            <tr>
+                                <th>Position</th>
+                                <th>Company name</th>
+                                <th>Date</th>
+                                <th>Details</th>
+                            </tr>
+                            <tr>
+                                <td>Senior Virtual Assistant</td>
+                                <td>ENTRE Institute</td>
+                                <td>2021 - present</td>
+                               <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" style="background-color: #00c6c4; color: white; border-color: #00c6c4;">
+                                View details
+                              </button>
+                                <!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Freelance Virtual Assistant</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <ul>
+            <li><span style="font-weight: bold;">Current position: Senior Assistant </span><br>
+            <p>ENTRE Institute</p><br>
+            <p><span style="font-weight: bold;">Duties & Responsibilities </span><br>
+                Assists students in their queries. <br>
+                Appointment setting <br>
+                CRM management </p>
+            <p></p>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="background-color: #00c6c4; color: black; border-color: #00c6c4;">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Customer Service Representative</td>
+                                <td>Panasiatic Call Centers, Inc.</td>
+                                <td>2011 - 2018</td>
+                                <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1" style="background-color: #00c6c4; color: white; border-color: #00c6c4;">
+                                    View details
+                                  </button>
+                                    <!-- The Modal -->
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Customer Service Representative</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <ul>
+                <li><span style="font-weight: bold;">Position: Executive Resolution and Refund </span><br>
+                <p>Panasiatic Call Centers, Inc.</p><br>
+                <p><span style="font-weight: bold;">Duties & Responsibilities </span><br>
+                    Technical support <br>
+                    Refund concern <br>
+                    CRM management <br>
+                    Compensation management </p>
+                <p></p>
+                </li>
+              </ul>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="background-color: #00c6c4; color: black; border-color: #00c6c4;">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>Graphic Artist</td>
+                                <td>Iloilo Sign Services</td>
+                                <td>2009 - 2011</td>
+                                <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2" style="background-color: #00c6c4; color: white; border-color: #00c6c4;">
+                                    View details
+                                  </button>
+                                    <!-- The Modal -->
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Graphic Artist</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <ul>
+                <li><span style="font-weight: bold;">Position: Layout and Graphic Artist </span><br>
+                <p>Iloilo Sign Services</p><br>
+                <p><span style="font-weight: bold;">Duties & Responsibilities </span><br>
+                    Assists customers in their queries. <br>
+                    Creates designs for clients that visually communicates desired product or message <br>
+                    Creates rough drafts and sketches of concept </p>
+                <p></p>
+                </li>
+              </ul>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="background-color: #00c6c4; color: black; border-color: #00c6c4;">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+                                    </td>
+                            </tr>
+                          </table></div>
+                        
+                     </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><p>
+                        <ul>
+                            <li><span class="span-about">Information Technology</span><br>
+                            STI - WNU - Bacolod City<br>2003 - 2015</li>
+                        </ul>
+                    </p></div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><p>
+                        <ul>
+                            <li><span class="span-about">Front-End Web Development</span></li>
+                            <li><span class="span-about">Graphic Design</span></li>
+                            <li><span class="span-about">Transcription</span></li>
+                            <li><span class="span-about">General Virtual Assistance</span></li>
+                            <li><span class="span-about">Bootstrap</span></li>
+                        </ul>
+                    </p></div>
+                  </div>
+                
+                                
+            </div>
+        </div>
+    </section>
+    <section id="certificate">
+        <h1 class="headings">CERTIFICATES</h1>
+        <div class="gallery">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://previews.dropbox.com/p/thumb/AB6EHq5iXc369G0uyLvXImkx_zIPMWf6E8bxux4udaun-TUAM62w9KiRfo7aW39jpC8hfK-txM1jL4kAp6BLFxA6OnntoiBrjPExqvsGNBBQQ66LuY6KjoReCDD7_Np_FWp0R2vTgHfEPFxVVjIghmnPRzoeRtT81uOzC0raHD7QHU--IXGmiGQKkwJXHOr4WkTn2Ro-9toarIkN3OStDni4HXwZtgdlKqHtCMfq-qrUNQffEiAEBS-t22XhSkJdTiqfjseX0qY6iIIrs4oreXxBQzUkAX619pWluwShXYGByfOT4r42ytrLx8LShRVxTK0yruGP6igtoRNh8O5sk_JMOAYshxoyXrCTjuueJerhvRvSxQIO_YsQrySyhbJOPCI/p.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>BPI Foundation | TechVOC | Bayan Academy</h5>
+                      <p>WORDPRESS Training</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://previews.dropbox.com/p/thumb/AB6v4gfFI9Q7EY-FkTMrWDURS3tHPpPNeLKKHZIBVc052QObidy8KXRfD46F1xzkxHMPSyAWGeFsmBiBN1GL_tNS17Wt0ucrPLZg2Xq5zEzqeGJvwmm8rsvFKjL5RhoZrL-MT4GeJ652Lr7Oc2SLqqEbyN-il9WqP2i_kU9Swx5RF1CtOv_v5aZkXBkKHd7NbCoRexI7Iq2Irotorxu4H_QyNe0whDjYPnA2ihXh8Y-gR889pooR9nygPw2c1ZdfrcaIBlrkAw7lHIgi3uHuos13W4GBp0MrRJJPFic_lW_Lhw2pi81C5nv4JMbN4j6MZUPmDKnfocG2QwV3z8TDWAygyL8TSuy6rYwPfPogz2khWtETLHgKVDhpRgFBSDORYgE/p.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Bayan Academy</h5>
+                      <p>Front-End Web Development Training</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://previews.dropbox.com/p/thumb/AB55lLsTLIWmpUuyAMTLDSGCNJFfVvPoIgn3hTmk0XKjhD-_ZUghFpas9UxBPc-Tw7BWsRsJUoGTaQjZqpr7FSsGz3cJVCfB-DTeW0jNdSlFN1CI1A5s01Tyz8UtwnGCBNsTIqUrN9uRaDzYkmbij1dB0iCcsJ9L1ja4YAQ7j_9URyjweFdtsCuj9qQF68x5xejZAZPF9OD3rSlDYeMfziyt_PMPUjz3afSBUvbBN1IgOT9mcVYKUTl7IodLQiV-QMoxazh8wwbFp_dV2QhqVW1ZUnLQKr5NYWeoNvG5XEcKy4JQnW2eNrPa-hjC-zYvGuv2bPdaEPoRbMP9G2iZfrq-OTTl8W8PI0mTEDUrZc7gLtzh7L4FqMvGJ0uMOgizjjU/p.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>DICT General Virtual Assistant Training</h5>
+                      <p>September 2022 - January 2023</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        
+    </section>
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                  <div class="col order-last">
+                    <div class="box">
+                        <img src="https://previews.dropbox.com/p/thumb/AB6zcsf2vlCIoaPkCNJ6XXrndv04B-mTG9KGCRvM9UM_tJqCrD4MJ8qQ-CmhlXxkL48gO2OodVV4Yf2IRFg3hTjHm4uevyNMu2dzzmaN914zdx3ACq-Ok-CgEzYuAVwQOMqxhp7qhWky7QU2ltQRcVTGntrSdR3rY7oiX85GGGNJiTOShQIxFnGdSkKfzPkLwKfGycSHY2wXBTSn52whAk4JwDHJ2Ostbf0vYylSt2RsXfX1GNsSMhCb1fztBl2tNFXsEFPFb4al4nTjS_-HIhLaCQHdntEbBRgxl341mMkVDucRmnAi5q-bRJdUGE0_lJ9XFgryDUTpwrPNeLDe165BAz4RbUizM3xzDIh47gYatI8F85YBCdQ9QzTOb4zJRW4/p.png">
+                        <h1 class="headings">Website Design</h1>
+                        <p>Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="box">
+                        <img src="https://previews.dropbox.com/p/thumb/AB6tjcui2TYGqJd90TGMPCz5K7kTBQTVnET6l1S2xTxfaIPAU3VhilYiRJP0onZw3G3fVcGC-gTdPclzms3dxEvlZS8j8LjLOJK2HW3FO57ZgyTRwuge_yyNZRhqA6Uo91WfW6PaF1haDAQ31hRx4vRoGq0cFw-pcIelFb-mDFldRSgzwj2_RnDpE31jA-8RKYekYshsNQ_nlYVHkyNBvr7H7xosdQzWFs4y2mwFeN0poEa4G9vHgSKyakP1JtAahkcCmI3o-cJOw6RFE_rrS8F1nMSsvPLk7JSYrQJXADJSfy5JExeFs_4CFMFshwFieCz71JRVBlOpBQTwLC6yNYJ85L5dKQihNn1PiTZseQE5IoMLnzjo7bNS92rKhFW7A0A/p.png">
+                        <h1 class="headings">Virtual Assistant</h1>
+                        <p>A virtual assistant is a remote employee who offers administrative support for you and your business, usually part-time. They can do tasks that an executive assistant would typically handle, such as scheduling appointments, making phone calls, arranging travel, or organizing emails.</p>
+                    </div>
+                  </div>
+                  <div class="col order-first">
+                    <div class="box">
+                        <img src="https://previews.dropbox.com/p/thumb/AB5klfvGa41QrWJGWCW_PAKVJsOxexr1yVPP9WKKe5Ht554fG5Tfzn6EFGctLrg2cO34mm1eU5ZJbXZb-wbjC6zdOFQvymV7SqoW-Vuq5DeRgLNtVNHdv838ghJhLJpUzGn11dTI__TG4EJpN05C9RgAWYbSq2d1A8ES7q4Cd3Wz_e8Pso7G_2A4g2SwXCqlV7mJfb6vm6XgbbSPMSxMSP6_aLxjPj-gNliD1pvy7GYV_w6tP6-H1MPsCnMQo1StOpOd64eOa91oTaa_J7bGuTIPkwvY0MJoPqBANSpwVkYMbFCQraH9UZ83PvAJgmTKX9lqmlBrHjZv6snGJiIkV9xTizXtz2ZalufW8EGibIs3PillkqI2CjhVkH242YztFI8/p.png">
+                        <h1 class="headings">Graphic Design</h1>
+                        <p>Professionals who practice graphic design produce visual content to convey messages. Designers utilize typography and images to fulfill the individual demands of users and concentrate on the logic of showing pieces in interactive designs to maximize the user experience by utilizing visual hierarchy and page layout approaches.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            
+           
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form" name="submit-to-google-sheet">
+            <input type="text" name="Name" class="input" placeholder="Enter your name" required>
+            <input type="email" name="Email" class="input" placeholder="Enter your email" required>
+            <textarea name="Message" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+        <span id="result_msg" style="border: none;"></span>
+        <div class="contact_row">
+        <p><i class="fa-solid fa-paper-plane"></i>eugeneflores87@gmail.com</p>      
+                        <div class="social-icons-contact">
+                        <a href="https://www.facebook.com/eugeneflores87" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/eugeneflores1987/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/eugene_flores87" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/eugeneflores1987/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+        </div>
+      
+    </section>
+    <div class="copyright">
+        <p>Copyright © Eugene Flores 2023</p>
+    </div>
+
+
+
+    
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwrGYsBjKi_AWqHyBguDX3vmV70fhl0hC_lhHIGMEbH7mDBD99ROS_9g205UFeVstgL7A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("result_msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
